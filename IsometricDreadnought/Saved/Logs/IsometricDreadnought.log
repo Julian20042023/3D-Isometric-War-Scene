@@ -2833,3 +2833,778 @@ Asset BlueMetalNormal -> Missing file C:/Users/jdtay/Desktop/3D-Isometric-War-Sc
 [2025.05.21-22.05.07:158][451]LogMaterialEditor: Applying material BakedBlueMetalLegs
 [2025.05.21-22.05.07:249][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
 [2025.05.21-22.05.07:496][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.05.21-22.11.47:681][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.05.21-22.11.47:682][528]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/DreadnoughtViewingMap' took 0.006
+[2025.05.21-22.11.47:685][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal] ([1] browsable assets)...
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: ================================================
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Total job queries 806, among them cache hits 488 (60.55%)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Tracking 314 distinct input hashes that result in 138 distinct outputs (43.95%)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: RAM used: 7.06 MiB of 819.20 MiB budget. Usage: 0.86%
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Shaders Compiled: 104
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Jobs assigned 104, completed 104 (100%)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Average time worker was idle: 107.66 s
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 0.80 s
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Job execution time: average 0.30 s, max 0.53 s
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Job life time (pending + execution): average 0.45 s, max 1.01
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Shader code size: average 39.1 KiB, min 29.613 KiB, max 62.523 KiB
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.34 s
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Jobs were issued in 104 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Average processing rate: 10.05 jobs/sec
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Total thread time: 21.656 s
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Total thread preprocess time: 2.36 s
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Percentage time preprocessing: 10.90%
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Effective parallelization: 2.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 0.25 sec, max 0.25 sec, min 0.24 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    3 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 0.24 sec, max 0.28 sec, min 0.18 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.19% of total time (compiled   18 times, average 0.24 sec, max 0.28 sec, min 0.18 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.27% of total time (compiled   18 times, average 0.23 sec, max 0.25 sec, min 0.20 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.30% of total time (compiled   14 times, average 0.22 sec, max 0.24 sec, min 0.19 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.29% of total time (compiled   14 times, average 0.10 sec, max 0.11 sec, min 0.08 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.23% of total time (compiled    5 times, average 0.18 sec, max 0.19 sec, min 0.18 sec)
+[2025.05.21-22.11.48:711][528]LogShaderCompilers: Display: ================================================
+[2025.05.21-22.11.48:892][528]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal.BakedBlueMetal]
+[2025.05.21-22.11.48:892][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal]
+[2025.05.21-22.11.48:895][528]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal_Auto3
+[2025.05.21-22.11.48:895][528]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/BakedBlueMetal_Auto32E73BD8746027693FC5B3BAAED13EDCE.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal_Auto3.uasset'
+[2025.05.21-22.11.48:896][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs] ([1] browsable assets)...
+[2025.05.21-22.11.48:996][528]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs.BakedBlueMetalLegs]
+[2025.05.21-22.11.48:996][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs]
+[2025.05.21-22.11.48:998][528]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs_Auto3
+[2025.05.21-22.11.48:998][528]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/BakedBlueMetalLegs_Auto38C8E59F94F9290A0D1DB179BD8071A23.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs_Auto3.uasset'
+[2025.05.21-22.11.48:999][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/GoldFrame/GoldMetalNormal] ([1] browsable assets)...
+[2025.05.21-22.11.49:003][528]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Dreadnought/GoldFrame/GoldMetalNormal.GoldMetalNormal]
+[2025.05.21-22.11.49:003][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/GoldFrame/GoldMetalNormal]
+[2025.05.21-22.11.49:004][528]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/GoldFrame/GoldMetalNormal_Auto3
+[2025.05.21-22.11.49:004][528]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GoldMetalNormal_Auto3FEB5176A46B1E564788A0CB9CB64B9B1.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/GoldFrame/GoldMetalNormal_Auto3.uasset'
+[2025.05.21-22.11.49:005][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/GoldFrame/GoldMetalRoughness] ([1] browsable assets)...
+[2025.05.21-22.11.49:008][528]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Dreadnought/GoldFrame/GoldMetalRoughness.GoldMetalRoughness]
+[2025.05.21-22.11.49:008][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/GoldFrame/GoldMetalRoughness]
+[2025.05.21-22.11.49:010][528]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/GoldFrame/GoldMetalRoughness_Auto3
+[2025.05.21-22.11.49:010][528]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GoldMetalRoughness_Auto3C4D9CB1845A5477FD82532B66B19A044.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/GoldFrame/GoldMetalRoughness_Auto3.uasset'
+[2025.05.21-22.11.49:011][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour] ([1] browsable assets)...
+[2025.05.21-22.11.49:014][528]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour.GoldMetalBaseColour]
+[2025.05.21-22.11.49:014][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour]
+[2025.05.21-22.11.49:017][528]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour_Auto3
+[2025.05.21-22.11.49:017][528]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GoldMetalBaseColour_Auto35375B8964A623445579806A1B5F44F21.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour_Auto3.uasset'
+[2025.05.21-22.11.49:018][528]LogFileHelpers: Auto-saving content packages took 1.335
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: MaxSampler: 255 instructions
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Texture samplers: 6/16
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Shader Count: 16
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Base pass shader: 206 instructions
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: MaxSampler: 255 instructions
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Texture samplers: 6/16
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.11.49:056][529]MaterialEditorStats: Shader Count: 16
+[2025.05.21-22.23.13:546][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.13:623][670]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GoldFrame/GoldMetalNormal
+[2025.05.21-22.23.13:623][670]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GoldMetalNormalC80848DD420420D26BAA7597A9740106.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GoldFrame/GoldMetalNormal.uasset'
+[2025.05.21-22.23.13:645][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 4.28 sec)
+[2025.05.21-22.23.13:646][670]AssetCheck: New page: Asset Save: GoldMetalNormal
+[2025.05.21-22.23.13:646][670]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/GoldFrame/GoldMetalNormal.GoldMetalNormal
+[2025.05.21-22.23.13:906][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.13:966][682]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour
+[2025.05.21-22.23.13:966][682]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GoldMetalBaseColour94EE775D43915A2269BC00B320B6AAD2.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour.uasset'
+[2025.05.21-22.23.13:988][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 4.36 sec)
+[2025.05.21-22.23.13:989][682]AssetCheck: New page: Asset Save: GoldMetalBaseColour
+[2025.05.21-22.23.13:989][682]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/GoldFrame/GoldMetalBaseColour.GoldMetalBaseColour
+[2025.05.21-22.23.14:733][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.14:798][717]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GoldFrame/GoldMetalRoughness
+[2025.05.21-22.23.14:798][717]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GoldMetalRoughnessBD02C6424D17E0A42D647EBDA4EE4B8E.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GoldFrame/GoldMetalRoughness.uasset'
+[2025.05.21-22.23.14:821][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 4.45 sec)
+[2025.05.21-22.23.14:822][717]AssetCheck: New page: Asset Save: GoldMetalRoughness
+[2025.05.21-22.23.14:822][717]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/GoldFrame/GoldMetalRoughness.GoldMetalRoughness
+[2025.05.21-22.23.22:426][878]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/FBX/DreadNoughtGreyMetalAreas.fbx)
+[2025.05.21-22.23.22:433][878]LogFbx: Loading FBX Scene from ../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/FBX/DreadNoughtGreyMetalAreas.fbx
+[2025.05.21-22.23.22:440][878]LogFbx: FBX Scene Loaded Succesfully
+[2025.05.21-22.23.23:827][878]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.05.21-22.23.23:926][878]LogFbx: Display: Triangulating static mesh GreyMetalUpper
+[2025.05.21-22.23.24:032][878]LogStaticMesh: Display: Building static mesh DreadNoughtGreyMetalAreas...
+[2025.05.21-22.23.24:083][878]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.24:118][878]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: ================================================
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Total job queries 818, among them cache hits 490 (59.90%)
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Tracking 324 distinct input hashes that result in 138 distinct outputs (42.59%)
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: RAM used: 7.33 MiB of 819.20 MiB budget. Usage: 0.89%
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Shaders Compiled: 104
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Jobs assigned 104, completed 104 (100%)
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Average time worker was idle: 107.66 s
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 0.80 s
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Job execution time: average 0.30 s, max 0.53 s
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Job life time (pending + execution): average 0.45 s, max 1.01
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Shader code size: average 39.1 KiB, min 29.613 KiB, max 62.523 KiB
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.34 s
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Jobs were issued in 104 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Average processing rate: 10.05 jobs/sec
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Total thread time: 21.656 s
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Total thread preprocess time: 2.36 s
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Percentage time preprocessing: 10.90%
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Effective parallelization: 2.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.21-22.23.24:864][879]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 0.25 sec, max 0.25 sec, min 0.24 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    3 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 0.24 sec, max 0.28 sec, min 0.18 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.19% of total time (compiled   18 times, average 0.24 sec, max 0.28 sec, min 0.18 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.27% of total time (compiled   18 times, average 0.23 sec, max 0.25 sec, min 0.20 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.30% of total time (compiled   14 times, average 0.22 sec, max 0.24 sec, min 0.19 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.29% of total time (compiled   14 times, average 0.10 sec, max 0.11 sec, min 0.08 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.23% of total time (compiled    5 times, average 0.18 sec, max 0.19 sec, min 0.18 sec)
+[2025.05.21-22.23.24:865][879]LogShaderCompilers: Display: ================================================
+[2025.05.21-22.23.26:346][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.26:449][923]LogSavePackage: Moving output files for package: /Game/Assets/DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.26:449][923]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/DreadNoughtGreyMetalAreasBCD43B52431CE64EC1438FAAAA5E7CA9.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Assets/DreadNoughtGreyMetalAreas.uasset'
+[2025.05.21-22.23.26:463][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 4.57 sec)
+[2025.05.21-22.23.26:464][923]AssetCheck: New page: Asset Save: DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.26:464][923]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.27:069][939]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.27:069][939]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.27:069][939]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas as actor: StaticMeshActor /Game/DreadnoughtViewingMap.DreadnoughtViewingMap:PersistentLevel.StaticMeshActor_1
+[2025.05.21-22.23.27:430][953]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.27:430][953]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.27:432][953]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas as actor: StaticMeshActor /Game/DreadnoughtViewingMap.DreadnoughtViewingMap:PersistentLevel.StaticMeshActor_UAID_3C7C3F12FB93936A02_1694632304
+[2025.05.21-22.23.31:783][106]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.31:885][106]LogSavePackage: Moving output files for package: /Game/Assets/Edge_Wear_Dull_Gray
+[2025.05.21-22.23.31:885][106]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Edge_Wear_Dull_GrayD72FB5694D74E44A4BE68DA6C9B667CF.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Assets/Edge_Wear_Dull_Gray.uasset'
+[2025.05.21-22.23.31:899][106]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 4.68 sec)
+[2025.05.21-22.23.31:900][106]AssetCheck: New page: Asset Save: Edge_Wear_Dull_Gray
+[2025.05.21-22.23.31:900][106]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.23.32:453][129]LogSlate: Window 'Message Log' being destroyed
+[2025.05.21-22.23.32:485][129]LogSlate: Window 'Message Log' being destroyed
+[2025.05.21-22.23.43:863][620]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.43:920][620]LogSavePackage: Moving output files for package: /Game/Assets/DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.43:921][620]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/DreadNoughtGreyMetalAreas007AF6C9473514EDBAB7DC9D4F8F1905.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Assets/DreadNoughtGreyMetalAreas.uasset'
+[2025.05.21-22.23.43:923][620]LogSavePackage: Moving output files for package: /Game/Textures/Edge_Wear_Dull_Gray
+[2025.05.21-22.23.43:923][620]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Edge_Wear_Dull_GrayDFFCC3E94101CA999BFF9393D4785FA1.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Edge_Wear_Dull_Gray.uasset'
+[2025.05.21-22.23.43:938][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 4.76 sec)
+[2025.05.21-22.23.43:947][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.05.21-22.23.43:952][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.05.21-22.23.43:956][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.05.21-22.23.43:969][620]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.21-22.23.43:969][620]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.43:969][620]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.23.47:997][784]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.48:055][784]LogSavePackage: Moving output files for package: /Game/Assets/DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.48:055][784]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/DreadNoughtGreyMetalAreasADF08E6E4EC803F53CE11B9764C18560.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Assets/DreadNoughtGreyMetalAreas.uasset'
+[2025.05.21-22.23.48:058][784]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/Edge_Wear_Dull_Gray
+[2025.05.21-22.23.48:058][784]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Edge_Wear_Dull_Gray2027B283480957A96A0C39A49E300D9B.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/Edge_Wear_Dull_Gray.uasset'
+[2025.05.21-22.23.48:074][784]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 4.83 sec)
+[2025.05.21-22.23.48:081][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.21-22.23.48:087][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.21-22.23.48:091][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.05.21-22.23.48:103][784]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.21-22.23.48:103][784]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.48:103][784]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Dreadnought/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.23.50:876][884]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.21-22.23.50:919][884]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.21-22.23.50:931][885]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.21-22.23.55:332][108]LogContentBrowser: Attempting asset rename: NewFolder -> GreyMetal
+[2025.05.21-22.23.55:332][108]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.21-22.23.58:567][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.23.58:637][242]LogSavePackage: Moving output files for package: /Game/Assets/DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.58:638][242]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/DreadNoughtGreyMetalAreas0BF70A4C45DB363BE2D900A19D7DF0BC.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Assets/DreadNoughtGreyMetalAreas.uasset'
+[2025.05.21-22.23.58:640][242]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray
+[2025.05.21-22.23.58:640][242]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Edge_Wear_Dull_GrayE099F0724D0BAC91B636F0A35F0D51A1.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.uasset'
+[2025.05.21-22.23.58:656][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 4.92 sec)
+[2025.05.21-22.23.58:664][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.05.21-22.23.58:670][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.21-22.23.58:674][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.05.21-22.23.58:687][242]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.21-22.23.58:687][242]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/DreadNoughtGreyMetalAreas.DreadNoughtGreyMetalAreas
+[2025.05.21-22.23.58:687][242]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.24.03:880][367]LogInterchangeEngine: [Pending] Importing
+[2025.05.21-22.24.03:880][367]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/jdtay/Deskt...s/textures/GreyMetal/GreyMetalRoughness.jpg]
+[2025.05.21-22.24.03:880][367]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.05.21-22.24.03:880][367]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/jdtay/Deskt...s/textures/GreyMetal/GreyMetalBaseColour.jpg]
+[2025.05.21-22.24.03:881][367]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.05.21-22.24.03:881][367]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/jdtay/Deskt...s/textures/GreyMetal/GreyMetalNormal.jpg]
+[2025.05.21-22.24.03:882][367]LogInterchangeImport: JPEG file [C:/Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/Models/Character Models/textures/GreyMetal/GreyMetalRoughness.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2025.05.21-22.24.03:882][367]LogInterchangeImport: JPEG file [C:/Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/Models/Character Models/textures/GreyMetal/GreyMetalBaseColour.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2025.05.21-22.24.03:882][367]LogInterchangeImport: JPEG file [C:/Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/Models/Character Models/textures/GreyMetal/GreyMetalNormal.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2025.05.21-22.24.03:930][368]LogTexture: Display: Building textures: /Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness.GreyMetalRoughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2025.05.21-22.24.04:040][368]LogInterchangePipeline: Display: Auto-detected normal map
+[2025.05.21-22.24.04:062][368]LogTexture: Display: Building textures: /Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal.GreyMetalNormal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 302.812488 MB), EncodeSpeed: Fast
+[2025.05.21-22.24.04:161][368]LogTexture: Display: Building textures: /Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour.GreyMetalBaseColour (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2025.05.21-22.24.04:237][368]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.05.21-22.24.04:237][368]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.05.21-22.24.04:251][368]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.24.04:254][368]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.24.04:339][369]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.24.07:629][404]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.24.07:633][404]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-22.24.07:633][404]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-22.24.07:807][404]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.07:807][404]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.07:807][404]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.07:815][404]LogViewport: Scene viewport resized to 399x468, mode Windowed.
+[2025.05.21-22.24.07:937][406]MaterialEditorStats: Base pass shader: 193 instructions
+[2025.05.21-22.24.07:937][406]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2025.05.21-22.24.07:937][406]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.07:937][406]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.07:937][406]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.09:817][454]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.09:817][454]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.09:817][454]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.09:901][456]MaterialEditorStats: Base pass shader: 187 instructions
+[2025.05.21-22.24.09:901][456]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2025.05.21-22.24.09:901][456]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.09:901][456]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.09:901][456]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.13:765][588]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.13:765][588]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.13:765][588]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.13:815][590]MaterialEditorStats: Base pass shader: 187 instructions
+[2025.05.21-22.24.13:815][590]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2025.05.21-22.24.13:815][590]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.13:815][590]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.13:815][590]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.16:793][694]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.16:793][694]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.16:793][694]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.16:864][696]MaterialEditorStats: Base pass shader: 188 instructions
+[2025.05.21-22.24.16:864][696]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2025.05.21-22.24.16:864][696]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.16:864][696]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.16:864][696]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.21:272][888]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.21:272][888]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.21:272][888]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.21:316][889]MaterialEditorStats: Base pass shader: 188 instructions
+[2025.05.21-22.24.21:316][889]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2025.05.21-22.24.21:316][889]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.21:316][889]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.21-22.24.21:316][889]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.25:403][ 62]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.25:403][ 62]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.05.21-22.24.25:403][ 62]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.25:403][ 62]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.25:832][ 84]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.21-22.24.25:832][ 84]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.05.21-22.24.25:832][ 84]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.25:832][ 84]MaterialEditorStats: Shader Count: 1
+[2025.05.21-22.24.26:033][ 92]MaterialEditorStats: Base pass shader: 195 instructions
+[2025.05.21-22.24.26:033][ 92]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.05.21-22.24.26:033][ 92]MaterialEditorStats: Texture samplers: 3/16
+[2025.05.21-22.24.26:033][ 92]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.05.21-22.24.26:033][ 92]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.26:033][ 92]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.29:984][254]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.29:984][254]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2025.05.21-22.24.29:984][254]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.29:984][254]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.30:254][267]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.21-22.24.30:254][267]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2025.05.21-22.24.30:254][267]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.30:254][267]MaterialEditorStats: Shader Count: 1
+[2025.05.21-22.24.30:352][272]MaterialEditorStats: Base pass shader: 198 instructions
+[2025.05.21-22.24.30:352][272]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.05.21-22.24.30:352][272]MaterialEditorStats: Texture samplers: 4/16
+[2025.05.21-22.24.30:352][272]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2025.05.21-22.24.30:352][272]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.30:352][272]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.33:755][410]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.33:755][410]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.33:755][410]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.33:755][410]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.34:022][422]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.34:023][422]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.34:023][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.34:023][422]MaterialEditorStats: Shader Count: 1
+[2025.05.21-22.24.34:133][427]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.24.34:133][427]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.05.21-22.24.34:133][427]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.24.34:133][427]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.34:133][427]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.34:133][427]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.34:269][431]LogMaterialEditor: Saving and Compiling material Edge_Wear_Dull_Gray
+[2025.05.21-22.24.34:401][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.21-22.24.34:801][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.05.21-22.24.34:816][431]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.24.35:815][431]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray
+[2025.05.21-22.24.35:816][431]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Edge_Wear_Dull_Gray531663A941EBCEF110C7638FD9D2454E.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.uasset'
+[2025.05.21-22.24.35:829][431]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.01 sec (total: 5.93 sec)
+[2025.05.21-22.24.35:830][431]AssetCheck: New page: Asset Save: Edge_Wear_Dull_Gray
+[2025.05.21-22.24.35:830][431]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.24.35:836][431]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.24.35:836][431]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.05.21-22.24.35:836][431]MaterialEditorStats: MaxSampler: 255 instructions
+[2025.05.21-22.24.35:836][431]MaterialEditorStats: Texture samplers: 6/16
+[2025.05.21-22.24.35:836][431]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.35:836][431]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.24.35:836][431]MaterialEditorStats: Shader Count: 16
+[2025.05.21-22.24.38:265][529]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.38:265][529]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.38:265][529]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.38:265][529]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.38:607][546]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.38:607][546]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.38:607][546]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.38:607][546]MaterialEditorStats: Shader Count: 1
+[2025.05.21-22.24.38:712][551]MaterialEditorStats: Base pass shader: 207 instructions
+[2025.05.21-22.24.38:712][551]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.24.38:712][551]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.24.38:712][551]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.38:712][551]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.38:712][551]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.39:683][586]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.39:683][586]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.39:683][586]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.39:683][586]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.40:041][605]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.24.40:041][605]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.40:041][605]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.40:041][605]MaterialEditorStats: Shader Count: 1
+[2025.05.21-22.24.40:144][609]MaterialEditorStats: Base pass shader: 207 instructions
+[2025.05.21-22.24.40:144][609]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.24.40:144][609]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.24.40:144][609]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.40:144][609]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.40:144][609]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.41:317][653]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.24.41:317][653]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.41:317][653]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.41:317][653]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.24.41:354][655]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.24.41:354][655]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.24.41:354][655]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.24.41:354][655]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.41:354][655]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.41:354][655]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.24.41:721][671]LogMaterialEditor: Saving and Compiling material Edge_Wear_Dull_Gray
+[2025.05.21-22.24.41:809][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.05.21-22.24.42:025][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.05.21-22.24.42:040][671]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.24.42:143][671]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray
+[2025.05.21-22.24.42:144][671]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Edge_Wear_Dull_Gray76899E3C45AED1CB0B9D93A72448DA96.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.uasset'
+[2025.05.21-22.24.42:158][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 6.05 sec)
+[2025.05.21-22.24.42:159][671]AssetCheck: New page: Asset Save: Edge_Wear_Dull_Gray
+[2025.05.21-22.24.42:159][671]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.24.42:166][671]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.24.42:166][671]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.24.42:166][671]MaterialEditorStats: MaxSampler: 255 instructions
+[2025.05.21-22.24.42:166][671]MaterialEditorStats: Texture samplers: 6/16
+[2025.05.21-22.24.42:166][671]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.24.42:166][671]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.24.42:166][671]MaterialEditorStats: Shader Count: 16
+[2025.05.21-22.24.49:604][  6]LogMaterialEditor: Saving and Compiling material BakedBlueMetal
+[2025.05.21-22.24.49:606][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.24.49:699][  6]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal
+[2025.05.21-22.24.49:700][  6]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/BakedBlueMetal643A5BD745C9CBE54B665FB377877E0B.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal.uasset'
+[2025.05.21-22.24.49:721][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 6.17 sec)
+[2025.05.21-22.24.49:723][  6]AssetCheck: New page: Asset Save: BakedBlueMetal
+[2025.05.21-22.24.49:723][  6]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Dreadnought/BlueMetalTop/BakedBlueMetal.BakedBlueMetal
+[2025.05.21-22.24.53:509][188]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.21-22.24.53:515][188]LogContentBundle: [DreadnoughtViewingMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.21-22.24.53:515][188]LogWorldPartition: Display: GenerateStreaming for 'DreadnoughtViewingMap' started...
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor 
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor2 
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor3 
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor4 
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor5 
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor6 
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor8 
+[2025.05.21-22.24.53:515][188]MapCheck: Error: Level Script Blueprint references streamed actor /Game/DreadnoughtViewingMap.CameraActor7 
+[2025.05.21-22.24.53:623][188]LogWorldPartition: Display: GenerateStreaming for 'DreadnoughtViewingMap' took 108 ms (total: 601 ms)
+[2025.05.21-22.24.53:623][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.21-22.24.53:623][188]PIE: New page: PIE session: DreadnoughtViewingMap (22 May 2025, 00:24:53)
+[2025.05.21-22.24.53:623][188]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DreadnoughtViewingMap
+[2025.05.21-22.24.53:637][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013298s)
+[2025.05.21-22.24.53:637][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DreadnoughtViewingMap.DreadnoughtViewingMap to /Game/UEDPIE_0_DreadnoughtViewingMap.DreadnoughtViewingMap (0.013326s)
+[2025.05.21-22.24.53:641][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.05.21-22.24.53:641][188]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-22.24.53:641][188]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-22.24.53:641][188]LogAIModule: Creating AISystem for world DreadnoughtViewingMap
+[2025.05.21-22.24.53:642][188]LogWorldPartition: ULevel::OnLevelLoaded(DreadnoughtViewingMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.21-22.24.53:642][188]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.21-22.24.53:642][188]LogWorldPartition: UWorldPartition::Initialize : World = DreadnoughtViewingMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.21-22.24.53:642][188]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.21-22.24.53:644][188]LogContentBundle: [DreadnoughtViewingMap(Standalone)] Creating new contrainer.
+[2025.05.21-22.24.53:644][188]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.26 sec)
+[2025.05.21-22.24.53:644][188]LogPlayLevel: PIE: World Init took: (0.003989s)
+[2025.05.21-22.24.53:644][188]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.05.21-22.24.53:644][188]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.21-22.24.53:644][188]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.21-22.24.53:644][188]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.21-22.24.53:644][188]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.21-22.24.53:644][188]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.21-22.24.53:644][188]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.21-22.24.53:644][188]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.21-22.24.53:644][188]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.21-22.24.53:645][188]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.21-22.24.53:645][188]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.21-22.24.53:645][188]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.21-22.24.53:647][188]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.21-22.24.53:661][188]LogAudioMixer: Display: Using Audio Hardware Device 2D FHD LG TV (NVIDIA High Definition Audio)
+[2025.05.21-22.24.53:662][188]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.21-22.24.53:662][188]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.21-22.24.53:662][188]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.21-22.24.53:662][188]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.05.21-22.24.53:662][188]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.05.21-22.24.53:664][188]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.05.21-22.24.53:664][188]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.05.21-22.24.53:664][188]LogInit: FAudioDevice initialized with ID 6.
+[2025.05.21-22.24.53:664][188]LogAudio: Display: Audio Device (ID: 6) registered with world 'DreadnoughtViewingMap'.
+[2025.05.21-22.24.53:664][188]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.05.21-22.24.53:668][188]LogLoad: Game class is 'GameModeBase'
+[2025.05.21-22.24.53:668][188]LogWorld: Bringing World /Game/UEDPIE_0_DreadnoughtViewingMap.DreadnoughtViewingMap up for play (max tick rate 0) at 2025.05.21-23.24.53
+[2025.05.21-22.24.53:668][188]LogWorld: Bringing up level for play took: 0.000825
+[2025.05.21-22.24.53:670][188]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.05.21-22.24.53:671][188]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2025.05.21-22.24.53:671][188]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-1300.000 Y=1350.000 Z=542.000,P=-0.000000 Y=-100.000001 R=0.000000
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/0/49/XH8NYLQPRQ4CTEQ5F9PT45.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/0/E2/0UZ0LCK85ZDIQS8VAR9IQ9.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/0/E2/0UZ0LCK85ZDIQS8VAR9IQ9.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/0/KX/DW9PSY3BGUWL4MSOD4QCD6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/0/ZK/0JR63OB0F3FAWQCNP2N65Z.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/0/ZK/0JR63OB0F3FAWQCNP2N65Z.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/1/6F/1EMEFF17DOU2B4M27TI44D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/1/FH/1NU2QMB6OZSXQ0PGT7258U.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/1/HT/NJXH6PZIFNWJEO2ZKSRKQQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/2/7L/EESYN6P0HIEOAL7WN586PH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/2/A8/0SVNUJYL7RAH3RZVEYROGP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/3/0O/AS07CFT0LME90K1TTZ9OB8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/3/5T/39XQKXNSSRRMWEWKI43ZGD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/4/HH/QDZHD8JGUUGA7BE2S3Z0SP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/4/JV/V1XCM1GJF2ZC6O153V1UKX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/4/KO/EP3NJI1FSCC20EE4PAP8I1.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/4/KO/EP3NJI1FSCC20EE4PAP8I1.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/4/L9/RKV1U4PIMV09777R6AM242.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/6/CT/KQWYA4IY0HP7HT35HRN73W.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/6/MG/6KARHOM1TM0CTZD60FCQG9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/6/T6/33PC0L07LSOE5LSY12CL91.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/6/UL/492QD4QPEBKGIIN8TCF9CA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/7/4I/Q30QNESU6WBMX06W32RUMQ.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/7/4I/Q30QNESU6WBMX06W32RUMQ.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/7/DK/CAXGLA3GVG4I7IS2NPFK0M.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/7/E8/B09CH44ALBYE8IAAI8K22T.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/7/E8/B09CH44ALBYE8IAAI8K22T.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/7/UV/19A545QUECZGGUBUET93CZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/8/7I/COJTCZ6O7FUTNQ4YG5KD1E.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/8/7I/COJTCZ6O7FUTNQ4YG5KD1E.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/8/9U/KJGMK8O4Y8GRCTA93BP0W2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/9/0Q/280U8DPC38810C2RBSWHS3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/9/7X/7XF9Y8EEY9A2U8JTXAQLSK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/9/AO/G1XESTEQ10P6I8R1JGDXS4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/9/BM/3JFK4MZVP5WYKTQEE03BSE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/9/W4/6X59GUAMV9ZDUQRLGNTG8U.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/9/W4/6X59GUAMV9ZDUQRLGNTG8U.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/1M/C0AKLI3CF2W53E8KWTOCT8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/58/8GNVDODOEMPKS82CPOXGHA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/A4/85WOAWLOA723QYBSQ6UPWM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/GV/IQZRORIOAFK2YY9VJLDLSS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/KF/JXB0FHDH16QF2FWVU9D3N5.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/KF/JXB0FHDH16QF2FWVU9D3N5.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/KF/JXB0FHDH16QF2FWVU9D3N5.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/KF/JXB0FHDH16QF2FWVU9D3N5.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/ON/M6HNU7Z50DG8P7BWT76VQ2.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/ON/M6HNU7Z50DG8P7BWT76VQ2.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/A/XN/BWCPDAYP8FV4BTOHPU5ZD3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/B/92/HRJ5NDH5QHWB7HCZVV1R77.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/B/92/HRJ5NDH5QHWB7HCZVV1R77.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/B/TJ/6KU6KCSELB40DIFIECV2DA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/C/2L/D07W5Y0MU9HGWV83P48VL4.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/C/2L/D07W5Y0MU9HGWV83P48VL4.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/C/64/SIYHNB0OEZPRS60ESDKX1O.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/C/64/SIYHNB0OEZPRS60ESDKX1O.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/D/EU/4PMFJI3ZVU3B85QD4PPSIM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/D/KP/934QX9H8D7XMDA0S98IJSR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/D/KV/AVT9E9976RNRQP3TYPAEPM.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/D/KV/AVT9E9976RNRQP3TYPAEPM.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/D/XK/8BRYMSB4QCY5GBXS4LIVFM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/E/2G/IN3B26HQZ7FI06YFSTTKSN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/E/41/I4CJNUNRCYGQORR3PMSUS5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/E/C6/XZMJZFQWX0HB715ER5CPDA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:673][188]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/DreadnoughtViewingMap/E/MC/7TF95CEV7WF8H3D2ET2JEN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.05.21-22.24.53:679][188]PIE: Server logged in
+[2025.05.21-22.24.53:680][188]PIE: Play in editor total start time 0.165 seconds.
+[2025.05.21-22.26.35:479][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.21-22.26.35:479][552]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DreadnoughtViewingMap
+[2025.05.21-22.26.35:479][552]LogWorld: UWorld::CleanupWorld for DreadnoughtViewingMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-22.26.35:481][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-22.26.35:481][552]LogContentBundle: [DreadnoughtViewingMap(Standalone)] Deleting container.
+[2025.05.21-22.26.35:484][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.21-22.26.35:486][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-22.26.35:491][552]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-22.26.35:493][552]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.05.21-22.26.35:493][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.21-22.26.35:494][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.21-22.26.35:498][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.21-22.26.35:503][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.21-22.26.35:562][553]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.05.21-22.26.38:836][698]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.26.38:918][698]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/DreadnoughtViewingMap/0/92/FKM9T4EKSGAKW3SJC0OQX7
+[2025.05.21-22.26.38:918][698]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/FKM9T4EKSGAKW3SJC0OQX77048E51942ECD7DEF87586B912ED914B.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/__ExternalActors__/DreadnoughtViewingMap/0/92/FKM9T4EKSGAKW3SJC0OQX7.uasset'
+[2025.05.21-22.26.38:946][698]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 6.28 sec)
+[2025.05.21-22.26.38:948][698]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_3C7C3F12FB93936A02_1694632304
+[2025.05.21-22.26.38:948][698]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/DreadnoughtViewingMap.DreadnoughtViewingMap:PersistentLevel.StaticMeshActor_UAID_3C7C3F12FB93936A02_1694632304
+[2025.05.21-22.27.03:916][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.21-22.27.03:917][828]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/DreadnoughtViewingMap' took 0.007
+[2025.05.21-22.27.03:917][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness] ([1] browsable assets)...
+[2025.05.21-22.27.03:922][828]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness.GreyMetalRoughness]
+[2025.05.21-22.27.03:922][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness]
+[2025.05.21-22.27.03:924][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness_Auto4
+[2025.05.21-22.27.03:924][828]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GreyMetalRoughness_Auto4AB12BC0A4AB7975B90963D99140E2E6E.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness_Auto4.uasset'
+[2025.05.21-22.27.03:925][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour] ([1] browsable assets)...
+[2025.05.21-22.27.03:928][828]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour.GreyMetalBaseColour]
+[2025.05.21-22.27.03:928][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour]
+[2025.05.21-22.27.03:930][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour_Auto4
+[2025.05.21-22.27.03:930][828]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GreyMetalBaseColour_Auto43E61C7C54BA6122A11058881A9438D7E.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour_Auto4.uasset'
+[2025.05.21-22.27.03:931][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal] ([1] browsable assets)...
+[2025.05.21-22.27.03:934][828]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal.GreyMetalNormal]
+[2025.05.21-22.27.03:934][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal]
+[2025.05.21-22.27.03:936][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal_Auto4
+[2025.05.21-22.27.03:936][828]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GreyMetalNormal_Auto46DC35CAF4704637AE187C38127AFA580.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Autosaves/Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal_Auto4.uasset'
+[2025.05.21-22.27.03:937][828]LogFileHelpers: Auto-saving content packages took 0.021
+[2025.05.21-22.28.38:934][111]LogDerivedDataCache: C:/Users/jdtay/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.418 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6259 files in 7922 folders with total size 739 MiB.
+[2025.05.21-22.33.02:024][ 90]LogInterchangeEngine: [Pending] Importing
+[2025.05.21-22.33.02:024][ 90]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/jdtay/Deskt...s/textures/GreyMetal/GreyMetalNormal.jpg]
+[2025.05.21-22.33.02:026][ 90]LogInterchangeImport: JPEG file [C:/Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/Models/Character Models/textures/GreyMetal/GreyMetalNormal.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2025.05.21-22.33.02:082][ 91]LogTexture: Display: Building textures: /Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal.GreyMetalNormal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 302.812488 MB), EncodeSpeed: Fast
+[2025.05.21-22.33.02:151][ 91]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.02:154][ 91]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.02:236][ 92]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.05:339][163]LogInterchangeEngine: [Pending] Importing
+[2025.05.21-22.33.05:339][163]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/jdtay/Deskt...s/textures/GreyMetal/GreyMetalNormal.jpg]
+[2025.05.21-22.33.05:341][163]LogInterchangeImport: JPEG file [C:/Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/Models/Character Models/textures/GreyMetal/GreyMetalNormal.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2025.05.21-22.33.05:398][164]LogTexture: Display: Building textures: /Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal.GreyMetalNormal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 302.812488 MB), EncodeSpeed: Fast
+[2025.05.21-22.33.05:466][164]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.05:468][164]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.05:564][165]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.12:351][332]LogInterchangeEngine: [Pending] Importing
+[2025.05.21-22.33.12:351][332]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/jdtay/Deskt...s/textures/GreyMetal/GreyMetalNormal.jpg]
+[2025.05.21-22.33.12:351][332]LogInterchangeImport: JPEG file [C:/Users/jdtay/Desktop/3D-Isometric-War-Scene/Blender Files/Models/Character Models/textures/GreyMetal/GreyMetalNormal.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2025.05.21-22.33.12:390][332]LogTexture: Display: Building textures: /Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal.GreyMetalNormal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 302.812488 MB), EncodeSpeed: Fast
+[2025.05.21-22.33.12:449][332]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.12:550][333]LogInterchangeEngine: [Success] Import Done
+[2025.05.21-22.33.17:036][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.33.17:147][352]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal
+[2025.05.21-22.33.17:147][352]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GreyMetalNormalFB3E50F74E7F457A638646BF419D3E7F.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GreyMetal/GreyMetalNormal.uasset'
+[2025.05.21-22.33.17:176][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 6.42 sec)
+[2025.05.21-22.33.17:176][352]AssetCheck: New page: Asset Save: GreyMetalNormal
+[2025.05.21-22.33.17:176][352]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/GreyMetal/GreyMetalNormal.GreyMetalNormal
+[2025.05.21-22.33.25:835][741]Cmd: TRANSACTION UNDO
+[2025.05.21-22.33.25:835][741]LogEditorTransaction: Undo Clicking on Elements
+[2025.05.21-22.33.26:315][747]Cmd: TRANSACTION UNDO
+[2025.05.21-22.33.26:315][747]LogEditorTransaction: Undo Create Pin Link
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:372][747]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.26:373][747]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.26:373][747]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:373][747]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:373][747]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: ================================================
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Total job queries 990, among them cache hits 622 (62.83%)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Tracking 364 distinct input hashes that result in 155 distinct outputs (42.58%)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: RAM used: 8.21 MiB of 819.20 MiB budget. Usage: 1.00%
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Shaders Compiled: 140
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Jobs assigned 140, completed 140 (100%)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Average time worker was idle: 101.80 s
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 0.80 s
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Job execution time: average 0.30 s, max 0.53 s
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Job life time (pending + execution): average 0.45 s, max 1.01
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Shader code size: average 39.004 KiB, min 29.613 KiB, max 62.523 KiB
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.18 s
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Jobs were issued in 140 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Average processing rate: 9.87 jobs/sec
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Total thread time: 29.554 s
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Total thread preprocess time: 3.215 s
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Percentage time preprocessing: 10.88%
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Effective parallelization: 2.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    4 times, average 0.26 sec, max 0.26 sec, min 0.25 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    4 times, average 0.25 sec, max 0.25 sec, min 0.24 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   25 times, average 0.25 sec, max 0.29 sec, min 0.18 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    4 times, average 0.25 sec, max 0.25 sec, min 0.24 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.81% of total time (compiled   25 times, average 0.25 sec, max 0.29 sec, min 0.18 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.97% of total time (compiled   25 times, average 0.24 sec, max 0.26 sec, min 0.20 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.68% of total time (compiled   19 times, average 0.23 sec, max 0.26 sec, min 0.19 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.40% of total time (compiled   19 times, average 0.10 sec, max 0.11 sec, min 0.08 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display:                                             FDebugViewModePS - 3.72% of total time (compiled    6 times, average 0.18 sec, max 0.19 sec, min 0.18 sec)
+[2025.05.21-22.33.26:495][748]LogShaderCompilers: Display: ================================================
+[2025.05.21-22.33.26:506][749]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.26:506][749]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.26:506][749]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.26:506][749]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:506][749]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:506][749]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Base pass shader: 206 instructions
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Base pass shader: 207 instructions
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.26:598][751]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.31:547][966]Cmd: TRANSACTION UNDO
+[2025.05.21-22.33.31:548][966]LogEditorTransaction: Undo Clicking on Elements
+[2025.05.21-22.33.31:861][969]Cmd: TRANSACTION UNDO
+[2025.05.21-22.33.31:862][969]LogEditorTransaction: Undo Create Pin Link
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.31:883][969]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.32:083][971]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.32:083][971]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.32:083][971]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.32:083][971]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.32:083][971]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.32:083][971]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.32:140][972]Cmd: TRANSACTION UNDO
+[2025.05.21-22.33.32:140][972]LogEditorTransaction: Undo Create Pin Link
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.33.32:184][972]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.32:301][974]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.32:301][974]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.32:301][974]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.32:301][974]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.32:301][974]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.32:301][974]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Base pass shader: 206 instructions
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.32:325][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.21-22.33.32:326][975]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.40:812][351]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.40:812][351]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.40:812][351]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.40:812][351]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.41:226][370]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.21-22.33.41:226][370]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.41:226][370]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.41:226][370]MaterialEditorStats: Shader Count: 1
+[2025.05.21-22.33.41:479][379]MaterialEditorStats: Base pass shader: 207 instructions
+[2025.05.21-22.33.41:479][379]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.41:480][379]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.41:480][379]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.41:480][379]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.41:480][379]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.42:239][405]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.42:239][405]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.42:239][405]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.42:239][405]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.42:285][407]MaterialEditorStats: Base pass shader: 207 instructions
+[2025.05.21-22.33.42:285][407]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.42:285][407]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.42:285][407]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.42:285][407]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.42:285][407]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.43:798][469]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.21-22.33.43:798][469]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.43:798][469]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.43:798][469]MaterialEditorStats: Shader Count: 0
+[2025.05.21-22.33.43:832][471]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.43:832][471]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.43:832][471]MaterialEditorStats: Texture samplers: 5/16
+[2025.05.21-22.33.43:832][471]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.43:832][471]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.43:832][471]MaterialEditorStats: Shader Count: 4
+[2025.05.21-22.33.44:903][520]LogMaterialEditor: Saving and Compiling material Edge_Wear_Dull_Gray
+[2025.05.21-22.33.44:992][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.21-22.33.45:220][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.05.21-22.33.45:237][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.33.45:308][520]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray
+[2025.05.21-22.33.45:309][520]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/Edge_Wear_Dull_Gray98B7808E4778FA5DDFBBCF873D359547.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.uasset'
+[2025.05.21-22.33.45:323][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 6.50 sec)
+[2025.05.21-22.33.45:324][520]AssetCheck: New page: Asset Save: Edge_Wear_Dull_Gray
+[2025.05.21-22.33.45:324][520]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Dreadnought/GreyMetal/Edge_Wear_Dull_Gray.Edge_Wear_Dull_Gray
+[2025.05.21-22.33.45:325][520]MaterialEditorStats: Base pass shader: 205 instructions
+[2025.05.21-22.33.45:325][520]MaterialEditorStats: Base pass vertex shader: 139 instructions
+[2025.05.21-22.33.45:325][520]MaterialEditorStats: MaxSampler: 255 instructions
+[2025.05.21-22.33.45:325][520]MaterialEditorStats: Texture samplers: 6/16
+[2025.05.21-22.33.45:325][520]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.05.21-22.33.45:325][520]MaterialEditorStats: User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2025.05.21-22.33.45:325][520]MaterialEditorStats: Shader Count: 16
+[2025.05.21-22.33.51:568][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.05.21-22.33.52:621][822]LogSlate: Window 'Save Content' being destroyed
+[2025.05.21-22.33.52:655][822]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-22.33.52:717][822]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs
+[2025.05.21-22.33.52:718][822]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/BakedBlueMetalLegsDCEDE8F341BD0713160BC7A9807A94EF.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs.uasset'
+[2025.05.21-22.33.52:724][822]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegBaseColourLegs
+[2025.05.21-22.33.52:724][822]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/BlueMetalLegBaseColourLegsAC8BE0134E30FB8422C2E69D603609F8.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegBaseColourLegs.uasset'
+[2025.05.21-22.33.52:728][822]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegNormal
+[2025.05.21-22.33.52:728][822]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/BlueMetalLegNormal0524D081436C5A0FC79FCAA9E3CF6A29.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegNormal.uasset'
+[2025.05.21-22.33.52:733][822]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegRoughness
+[2025.05.21-22.33.52:733][822]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/BlueMetalLegRoughnessEFDD4477411FB4EFE18200ADC8DE1997.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegRoughness.uasset'
+[2025.05.21-22.33.52:736][822]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour
+[2025.05.21-22.33.52:736][822]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GreyMetalBaseColour1270F85542C66588BF3354B41FFACD8C.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour.uasset'
+[2025.05.21-22.33.52:739][822]LogSavePackage: Moving output files for package: /Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness
+[2025.05.21-22.33.52:739][822]LogSavePackage: Moving '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Saved/GreyMetalRoughness9F7C30CA4D02D7D6529A2AA0DF315CCA.tmp' to '../../../../../../Users/jdtay/Desktop/3D-Isometric-War-Scene/IsometricDreadnought/Content/Textures/Dreadnought/GreyMetal/GreyMetalRoughness.uasset'
+[2025.05.21-22.33.52:754][822]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 6.60 sec)
+[2025.05.21-22.33.52:757][822]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.21-22.33.52:757][822]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Dreadnought/BlueMetalLegs/BakedBlueMetalLegs.BakedBlueMetalLegs
+[2025.05.21-22.33.52:757][822]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegBaseColourLegs.BlueMetalLegBaseColourLegs
+[2025.05.21-22.33.52:757][822]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegNormal.BlueMetalLegNormal
+[2025.05.21-22.33.52:757][822]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/BlueMetalLegs/BlueMetalLegRoughness.BlueMetalLegRoughness
+[2025.05.21-22.33.52:757][822]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/GreyMetal/GreyMetalBaseColour.GreyMetalBaseColour
+[2025.05.21-22.33.52:757][822]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Dreadnought/GreyMetal/GreyMetalRoughness.GreyMetalRoughness
