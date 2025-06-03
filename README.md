@@ -2,14 +2,14 @@
 
 About
 ----------------------------------------------------------------
-In this project you will find a verticle slice of a 3D Isomectric Scene displaying a dreadnought which has fallen in combat. This project was focused on my abilities in Hard Surface Modelling which I have been able to demonstrate through the models within the files.
+This project presents a detailed 3D isometric scene featuring a fallen mech in a post-combat setting. It is Designed to showcase my proficiency in 3D modeling, environmental storytelling, and scene composition. The scene captures a moment of stillness and aftermath in a larger narrative. 
 
 Contents
 ----------------------------------------------------------------
-Blender Files
-Unreal Engine Project
+<p>Blender Files
+<p>Unreal Engine Project
 
 Requirements
 ----------------------------------------------------------------
-Blender version: 4.2
-UE5 version: 5.3.2
+<p>Blender version: 4.2
+<p>UE5 version: 5.3.2
