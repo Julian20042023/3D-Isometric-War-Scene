@@ -6,10 +6,10 @@ This project presents a detailed 3D isometric scene featuring a fallen mech in a
 
 Contents
 ----------------------------------------------------------------
-<p>Blender Files
-<p>Unreal Engine Project
+<p>Blender Files</p>
+<p>Unreal Engine Project</p>
 
 Requirements
 ----------------------------------------------------------------
-<p>Blender version: 4.2
-<p>UE5 version: 5.3.2
+<p>Blender version: 4.2</p>
+<p>UE5 version: 5.3.2</p>
